@@ -12,7 +12,9 @@ def loop_message_n_times(message,number)
 end
 
 def output_array(message,number)
-  number.times do
-    puts message
+  counter=0
+  while counter<message.length
+    puts message[counter]
+    counter+=1
   end
 end
