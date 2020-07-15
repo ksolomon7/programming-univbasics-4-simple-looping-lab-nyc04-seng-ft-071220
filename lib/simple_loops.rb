@@ -24,7 +24,7 @@ def return_string_array(array)
   new_array=[]
   while counter<array.length
     new_element=array[counter].to_s
-    new_element.push(new_array)
+    new_array.push(new_element)
     counter+=1
   end
   puts new_array
