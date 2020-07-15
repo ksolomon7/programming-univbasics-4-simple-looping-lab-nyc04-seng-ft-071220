@@ -18,3 +18,14 @@ def output_array(message,number)
     counter+=1
   end
 end
+
+def return_string_array(array)
+  counter=0
+  new_array=[]
+  while counter<array.length
+    new_element=array[counter].to_s
+    new_element.push(new_array)
+    counter+=1
+  end
+  puts new_array
+end
