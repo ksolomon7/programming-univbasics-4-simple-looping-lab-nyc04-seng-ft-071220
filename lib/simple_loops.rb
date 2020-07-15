@@ -12,7 +12,5 @@ def loop_message_n_times(message,number)
 end
 
 def output_array(message,number)
-  number.times do
-    puts message
- end
+  puts message[number]
 end
